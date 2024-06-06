@@ -1,0 +1,155 @@
+.navbar-items{
+    font-size: 1.5rem; 
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+}
+.navbar-logo{
+    width: 40px;
+}
+
+.about-us{
+    margin-top: 25px;
+}
+
+.contain1 img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    
+}
+
+.lname{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 10px;
+    height: 30px;
+}
+.ldesig{
+    height: 10px;
+}
+
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.thenavbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+  
+}
+
+.about-foot {
+    display: flex;
+}
+
+.whiteborders {
+    border: 1.5px transparent solid;
+}
+
+.whiteborders:hover {
+    border: 1.5px white solid;
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 5px;
+
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body .btn {
+    margin-top: auto;
+    width: 150px;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box{
+    
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-image{
+    height: 300px;
+    background-size:contain; 
+    background-repeat: no-repeat;
+    width: 100%;
+    object-fit: contain;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+.nav-styling:hover{
+    border: 1px solid gray;
+}
+
+.contact-form{
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+
+}
+
+.nav-cart i {
+    font-size: 25px;
+    margin-left: 15px;
+    background-size: cover;
+    
+}
+.foot-items{
+    display: flex;
+    background-color: #e2e7e6;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot-sub{
+    display: inline-flex;
+    height: 20px;
+    width: 40px;
+    justify-content: flex-end;
+    
+}
+.foot-logo{
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
